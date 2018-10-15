@@ -1,0 +1,15 @@
+.\objects\timers.o: rtos\timers.c
+.\objects\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\timers.o: .\rtos\include\FreeRTOS.h
+.\objects\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timers.o: .\rtos\FreeRTOSConfig.h
+.\objects\timers.o: .\rtos\include\projdefs.h
+.\objects\timers.o: .\rtos\include\portable.h
+.\objects\timers.o: .\rtos\include\deprecated_definitions.h
+.\objects\timers.o: .\rtos\portmacro.h
+.\objects\timers.o: .\rtos\include\mpu_wrappers.h
+.\objects\timers.o: .\rtos\include\task.h
+.\objects\timers.o: .\rtos\include\list.h
+.\objects\timers.o: .\rtos\include\queue.h
+.\objects\timers.o: .\rtos\include\timers.h

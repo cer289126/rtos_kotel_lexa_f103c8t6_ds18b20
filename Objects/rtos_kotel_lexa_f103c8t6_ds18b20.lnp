@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+".\objects\1wire.o"
+".\objects\init_hard.o"
+".\objects\main.o"
+".\objects\ssd1306.o"
+".\objects\croutine.o"
+".\objects\event_groups.o"
+".\objects\heap_1.o"
+".\objects\list.o"
+".\objects\port.o"
+".\objects\queue.o"
+".\objects\stream_buffer.o"
+".\objects\tasks.o"
+".\objects\timers.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\rtos_kotel_lexa_f103c8t6_ds18b20.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\rtos_kotel_lexa_f103c8t6_ds18b20.map" -o .\Objects\rtos_kotel_lexa_f103c8t6_ds18b20.axf

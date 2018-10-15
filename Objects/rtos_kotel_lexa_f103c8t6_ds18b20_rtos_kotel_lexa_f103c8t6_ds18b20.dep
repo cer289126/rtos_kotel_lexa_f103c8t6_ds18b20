@@ -1,0 +1,198 @@
+Dependencies for Project 'rtos_kotel_lexa_f103c8t6_ds18b20', Target 'rtos_kotel_lexa_f103c8t6_ds18b20': (DO NOT MODIFY !)
+F (.\source\1wire.c)(0x5BBD6483)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\1wire.o --omf_browse .\objects\1wire.crf --depend .\objects\1wire.d)
+I (source\1wire.h)(0x5BBD4B6B)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53B9FF50)
+I (C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\RTE_Components.h)(0x5BC3D085)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625A8FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E202C)
+F (.\source\init_hard.c)(0x5BAC39E1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\init_hard.o --omf_browse .\objects\init_hard.crf --depend .\objects\init_hard.d)
+I (source\init_hard.h)(0x5BA0A60D)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53B9FF50)
+I (C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\RTE_Components.h)(0x5BC3D085)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625A8FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E202C)
+I (source\ssd1306.h)(0x5B761CAE)
+F (.\source\main.c)(0x5BC3D6F0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53B9FF50)
+I (C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\RTE_Components.h)(0x5BC3D085)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625A8FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E202C)
+I (.\rtos\include\FreeRTOS.h)(0x5BC3D409)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE34CE)
+I (.\rtos\FreeRTOSConfig.h)(0x5BC3D3EB)
+I (.\rtos\include\projdefs.h)(0x5B761CCF)
+I (.\rtos\include\portable.h)(0x5B761CD5)
+I (.\rtos\include\deprecated_definitions.h)(0x5B761D19)
+I (.\rtos\portmacro.h)(0x5B761D29)
+I (.\rtos\include\mpu_wrappers.h)(0x5B761D3C)
+I (.\rtos\include\task.h)(0x5B761EC6)
+I (.\rtos\include\list.h)(0x5B761E12)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE34CE)
+I (source\init_hard.h)(0x5BA0A60D)
+I (source\ssd1306.h)(0x5B761CAE)
+I (source\1wire.h)(0x5BBD4B6B)
+I (.\rtos\include\semphr.h)(0x5B761E71)
+I (.\rtos\include\queue.h)(0x5B761E85)
+I (.\rtos\include\timers.h)(0x5B761E80)
+F (.\source\ssd1306.c)(0x5B761D26)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\ssd1306.o --omf_browse .\objects\ssd1306.crf --depend .\objects\ssd1306.d)
+I (source\ssd1306.h)(0x5B761CAE)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53B9FF50)
+I (C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\RTE_Components.h)(0x5BC3D085)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625A8FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E202C)
+I (source\font_my.h)(0x5B761EDF)
+F (.\rtos\include\FreeRTOS.h)(0x5BC3D409)()
+F (.\rtos\croutine.c)(0x5B761D6D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (.\rtos\include\FreeRTOS.h)(0x5BC3D409)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (.\rtos\FreeRTOSConfig.h)(0x5BC3D3EB)
+I (.\rtos\include\projdefs.h)(0x5B761CCF)
+I (.\rtos\include\portable.h)(0x5B761CD5)
+I (.\rtos\include\deprecated_definitions.h)(0x5B761D19)
+I (.\rtos\portmacro.h)(0x5B761D29)
+I (.\rtos\include\mpu_wrappers.h)(0x5B761D3C)
+I (.\rtos\include\task.h)(0x5B761EC6)
+I (.\rtos\include\list.h)(0x5B761E12)
+I (.\rtos\include\croutine.h)(0x5B761E29)
+F (.\rtos\event_groups.c)(0x5B761E24)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE34CE)
+I (.\rtos\include\FreeRTOS.h)(0x5BC3D409)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (.\rtos\FreeRTOSConfig.h)(0x5BC3D3EB)
+I (.\rtos\include\projdefs.h)(0x5B761CCF)
+I (.\rtos\include\portable.h)(0x5B761CD5)
+I (.\rtos\include\deprecated_definitions.h)(0x5B761D19)
+I (.\rtos\portmacro.h)(0x5B761D29)
+I (.\rtos\include\mpu_wrappers.h)(0x5B761D3C)
+I (.\rtos\include\task.h)(0x5B761EC6)
+I (.\rtos\include\list.h)(0x5B761E12)
+I (.\rtos\include\timers.h)(0x5B761E80)
+I (.\rtos\include\event_groups.h)(0x5B761E33)
+F (.\rtos\heap_1.c)(0x5B761CCB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\heap_1.o --omf_browse .\objects\heap_1.crf --depend .\objects\heap_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE34CE)
+I (.\rtos\include\FreeRTOS.h)(0x5BC3D409)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (.\rtos\FreeRTOSConfig.h)(0x5BC3D3EB)
+I (.\rtos\include\projdefs.h)(0x5B761CCF)
+I (.\rtos\include\portable.h)(0x5B761CD5)
+I (.\rtos\include\deprecated_definitions.h)(0x5B761D19)
+I (.\rtos\portmacro.h)(0x5B761D29)
+I (.\rtos\include\mpu_wrappers.h)(0x5B761D3C)
+I (.\rtos\include\task.h)(0x5B761EC6)
+I (.\rtos\include\list.h)(0x5B761E12)
+F (.\rtos\list.c)(0x5B761D2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE34CE)
+I (.\rtos\include\FreeRTOS.h)(0x5BC3D409)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (.\rtos\FreeRTOSConfig.h)(0x5BC3D3EB)
+I (.\rtos\include\projdefs.h)(0x5B761CCF)
+I (.\rtos\include\portable.h)(0x5B761CD5)
+I (.\rtos\include\deprecated_definitions.h)(0x5B761D19)
+I (.\rtos\portmacro.h)(0x5B761D29)
+I (.\rtos\include\mpu_wrappers.h)(0x5B761D3C)
+I (.\rtos\include\list.h)(0x5B761E12)
+F (.\rtos\port.c)(0x5B761E28)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\rtos\include\FreeRTOS.h)(0x5BC3D409)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (.\rtos\FreeRTOSConfig.h)(0x5BC3D3EB)
+I (.\rtos\include\projdefs.h)(0x5B761CCF)
+I (.\rtos\include\portable.h)(0x5B761CD5)
+I (.\rtos\include\deprecated_definitions.h)(0x5B761D19)
+I (.\rtos\portmacro.h)(0x5B761D29)
+I (.\rtos\include\mpu_wrappers.h)(0x5B761D3C)
+I (.\rtos\include\task.h)(0x5B761EC6)
+I (.\rtos\include\list.h)(0x5B761E12)
+F (.\rtos\queue.c)(0x5B761EBF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE34CE)
+I (.\rtos\include\FreeRTOS.h)(0x5BC3D409)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (.\rtos\FreeRTOSConfig.h)(0x5BC3D3EB)
+I (.\rtos\include\projdefs.h)(0x5B761CCF)
+I (.\rtos\include\portable.h)(0x5B761CD5)
+I (.\rtos\include\deprecated_definitions.h)(0x5B761D19)
+I (.\rtos\portmacro.h)(0x5B761D29)
+I (.\rtos\include\mpu_wrappers.h)(0x5B761D3C)
+I (.\rtos\include\task.h)(0x5B761EC6)
+I (.\rtos\include\list.h)(0x5B761E12)
+I (.\rtos\include\queue.h)(0x5B761E85)
+F (.\rtos\stream_buffer.c)(0x5B761E61)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\stream_buffer.o --omf_browse .\objects\stream_buffer.crf --depend .\objects\stream_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE34CE)
+I (.\rtos\include\FreeRTOS.h)(0x5BC3D409)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE34CE)
+I (.\rtos\FreeRTOSConfig.h)(0x5BC3D3EB)
+I (.\rtos\include\projdefs.h)(0x5B761CCF)
+I (.\rtos\include\portable.h)(0x5B761CD5)
+I (.\rtos\include\deprecated_definitions.h)(0x5B761D19)
+I (.\rtos\portmacro.h)(0x5B761D29)
+I (.\rtos\include\mpu_wrappers.h)(0x5B761D3C)
+I (.\rtos\include\task.h)(0x5B761EC6)
+I (.\rtos\include\list.h)(0x5B761E12)
+I (.\rtos\include\stream_buffer.h)(0x5B761E50)
+F (.\rtos\tasks.c)(0x5B761EE1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE34CE)
+I (.\rtos\include\FreeRTOS.h)(0x5BC3D409)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (.\rtos\FreeRTOSConfig.h)(0x5BC3D3EB)
+I (.\rtos\include\projdefs.h)(0x5B761CCF)
+I (.\rtos\include\portable.h)(0x5B761CD5)
+I (.\rtos\include\deprecated_definitions.h)(0x5B761D19)
+I (.\rtos\portmacro.h)(0x5B761D29)
+I (.\rtos\include\mpu_wrappers.h)(0x5B761D3C)
+I (.\rtos\include\task.h)(0x5B761EC6)
+I (.\rtos\include\list.h)(0x5B761E12)
+I (.\rtos\include\timers.h)(0x5B761E80)
+I (.\rtos\include\stack_macros.h)(0x5B761CD3)
+F (.\rtos\timers.c)(0x5B761E57)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x56FE34CE)
+I (.\rtos\include\FreeRTOS.h)(0x5BC3D409)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (.\rtos\FreeRTOSConfig.h)(0x5BC3D3EB)
+I (.\rtos\include\projdefs.h)(0x5B761CCF)
+I (.\rtos\include\portable.h)(0x5B761CD5)
+I (.\rtos\include\deprecated_definitions.h)(0x5B761D19)
+I (.\rtos\portmacro.h)(0x5B761D29)
+I (.\rtos\include\mpu_wrappers.h)(0x5B761D3C)
+I (.\rtos\include\task.h)(0x5B761EC6)
+I (.\rtos\include\list.h)(0x5B761E12)
+I (.\rtos\include\queue.h)(0x5B761E85)
+I (.\rtos\include\timers.h)(0x5B761E80)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x56F9D04C)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x4F1E202C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x4F1E202C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53B9FF50)
+I (C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\RTE_Components.h)(0x5BC3D085)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625A8FC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE34CE)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56259540)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E202C)

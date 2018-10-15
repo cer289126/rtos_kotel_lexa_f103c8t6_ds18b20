@@ -1,0 +1,11 @@
+.\objects\init_hard.o: source\init_hard.c
+.\objects\init_hard.o: source\init_hard.h
+.\objects\init_hard.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+.\objects\init_hard.o: C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\RTE_Components.h
+.\objects\init_hard.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h
+.\objects\init_hard.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\init_hard.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+.\objects\init_hard.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+.\objects\init_hard.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+.\objects\init_hard.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h
+.\objects\init_hard.o: source\ssd1306.h
