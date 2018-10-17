@@ -20,7 +20,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56259540)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56259540)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E202C)
 I (source\ssd1306.h)(0x5B761CAE)
-F (.\source\main.c)(0x5BC3D6F0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\source\main.c)(0x5BC6E723)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\rtos\include -I .\rtos -I .\source-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE-I C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\Device\STM32F103C8-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53B9FF50)
 I (C:\project\rtos_kotel_lexa_f103c8t6_ds18b20\RTE\RTE_Components.h)(0x5BC3D085)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625A8FC)
