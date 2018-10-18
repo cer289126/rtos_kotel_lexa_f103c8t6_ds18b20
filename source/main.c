@@ -29,8 +29,9 @@ QueueHandle_t xQueue_ds18b20;
 struct Message
 {
 	uint8_t znak_ds18b20;
-	uint8_t temp_ds18b20;
-	uint8_t cer_ds18b20;
+	uint8_t temp_integer_ds18b20;
+	uint8_t temp_divis_ds18b20;
+	uint8_t crc_ds18b20;
 } xMess_send_ds18b20,xMess_rec_ds18b20;
 
 
@@ -98,7 +99,7 @@ int main( void )
 	// init_hard
 	init_();
 	OW_Init();
-	ssd1306_init();
+	//ssd1306_init();
 	
 	OW_Send(OW_SEND_RESET, "\xcc\x44", 2,  NULL,  NULL,  OW_NO_READ);
 	
@@ -125,7 +126,7 @@ int main( void )
 	if( xReturned == pdPASS )
     {
         /* The task was created.  Use the task's handle to delete the task. */
-        vTaskDelete( xTask_main_Handle );
+        //vTaskDelete( xTask_main_Handle );
     }
 
 	
@@ -139,7 +140,7 @@ int main( void )
 	if( xReturned == pdPASS )
     {
         /* The task was created.  Use the task's handle to delete the task. */
-        vTaskDelete( xTask_ds18b20_Handle );
+       // vTaskDelete( xTask_ds18b20_Handle );
     }
 		
 		xReturned=xTaskCreate( vTask_setup, 
@@ -152,7 +153,7 @@ int main( void )
 	if( xReturned == pdPASS )
     {
         /* The task was created.  Use the task's handle to delete the task. */
-        vTaskDelete( xTask_setup_Handle );
+        //vTaskDelete( xTask_setup_Handle );
     }
 	//Timer Rtos ---------------------------------------------------------------------
 	xTimer_mig = xTimerCreate
@@ -219,7 +220,7 @@ int main( void )
 
 void vTask_main( void *pvParametrs)
 {
-	uint8_t temp,temp1,txt[11];
+	uint8_t txt[11], temp_rec,temp1_rec,crc_rec,znak_rec;
 	uint8_t buf[10];
 	struct Message *pxMessage_rec;
 	//pxMessage_rec=&xMess_rec_ds18b20;
@@ -227,17 +228,28 @@ void vTask_main( void *pvParametrs)
 	{
 		if(xQueueReceive( xQueue_ds18b20, (void *) &pxMessage_rec , 0 ))
 
-		temp = ( ((buf[1]&0x07)<<4)|(buf[0]>>4));
-		//temp/=2;
-		temp1=(buf[0]&0x0F);	
-		temp1=((temp1<<1)+(temp1<<3));	
-		temp1=(temp1>>4);
+		temp_rec=pxMessage_rec->temp_integer_ds18b20;
+		temp1_rec=pxMessage_rec->temp_divis_ds18b20;
+		crc_rec=pxMessage_rec->crc_ds18b20;
+		znak_rec=pxMessage_rec->znak_ds18b20;
+		
+		
 		//temp1/=2;
   //  buf[0]=0;
-  //  buf[1]=0;		
-		sprintf(txt,"Темпер=%d.%d",temp,temp1);
-		ssd1306_Puts(txt,2);  // text and stroka
-	  ssd1306_update(2);
+  //  buf[1]=0;
+		if(crc_rec)
+		{
+			sprintf(txt,"Темпер=error");
+			//ssd1306_Puts(txt,2);  // text and stroka
+			//ssd1306_update(2);
+		}
+		else
+		{
+			sprintf(txt,"Темпер=%d.%d",temp_rec,temp1_rec);
+			//ssd1306_Puts(txt,2);  // text and stroka
+			//ssd1306_update(2);
+		}
+		vTaskDelay( 500/portTICK_PERIOD_MS );
 	}
 	
 }
@@ -246,7 +258,7 @@ void vTask_main( void *pvParametrs)
 
 void vTask_ds18b20( void *pvParametrs)
 {
-	uint8_t error_crc_ds18b20=0;
+	uint8_t error_crc_ds18b20=0,temp,temp1;
 	uint8_t buff[10];
 	TickType_t xLastWakeTime;
 	
@@ -258,10 +270,6 @@ void vTask_ds18b20( void *pvParametrs)
 	for(;;)
 	{
 		
-		OW_Send(OW_SEND_RESET, "\xcc\x44", 2,  NULL,  NULL,  OW_NO_READ);
-	  reset_delay_1s();
-	  while(uc_flag_1sec) __NOP;
-		GPIOC->ODR ^= GPIO_ODR_ODR13;
      __disable_irq (); 
 		 temp3=OW_Send(OW_SEND_RESET, "\xcc\xbe\xff\xff\xff\xff\xff\xff\xff\xff\xff", 11,  buff, 11, 2) ;//2);
 		if(Crc8Dallas(9,buff)==0) 
@@ -271,7 +279,22 @@ void vTask_ds18b20( void *pvParametrs)
 		
 		 __enable_irq ();
 		
+		temp = ( ((buff[1]&0x07)<<4)|(buff[0]>>4));
+		//temp/=2;
+		temp1=(buff[0]&0x0F);	
+		temp1=((temp1<<1)+(temp1<<3));	
+		temp1=(temp1>>4);
+		
+		// send znak,temp,crc
+		
+		pxMessage_send->temp_integer_ds18b20=temp;
+		pxMessage_send->temp_divis_ds18b20=temp1;
+		pxMessage_send->crc_ds18b20=error_crc_ds18b20;
+		pxMessage_send->znak_ds18b20=0;
+		
 		 xQueueSend( xQueue_ds18b20, ( void * ) &pxMessage_send, ( TickType_t ) 0 );
+		
+		OW_Send(OW_SEND_RESET, "\xcc\x44", 2,  NULL,  NULL,  OW_NO_READ);
 		
 		vTaskDelayUntil( &xLastWakeTime, 1000/portTICK_PERIOD_MS );
 	}
